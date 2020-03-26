@@ -13,7 +13,7 @@ git diff <filename> 					-> Check changes made to file with existing file
 git remote add origin <GitHub Repository URL> 		-> Establish connection to the remote Github Repository
 git push origin master 					-> Push to master branch
 
-----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------   
 
 Scenario 1:
 First Release -> Done
@@ -37,4 +37,15 @@ Person B -> Pull from master to private branch, merge code to master
 
 Scenario 3:
 1 Person -> Two different features
-Work on different branches
+
+
+                      PrivateBranch1-----------------------------
+		      |						|
+		      |						|
+		      |						|
+--------------------Master----------Release---------------Master--------------------------Master-------------Release--------------------Master----------------------------
+                     |										|
+		     |										|Pull and then merge
+		PrivateBranch2-------------------------------------------------------------------
+
+
