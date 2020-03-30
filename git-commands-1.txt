@@ -39,6 +39,7 @@ Scenario 3:
 1 Person -> Two different features
 
 
+
                       PrivateBranch1-----------------------------
 		      |						|
 		      |						|
@@ -47,5 +48,3 @@ Scenario 3:
                      |										|
 		     |										|Pull and then merge
 		PrivateBranch2-------------------------------------------------------------------
-
-
